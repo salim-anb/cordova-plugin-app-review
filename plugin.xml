@@ -14,12 +14,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <merges target="cordova.plugins.AppReview" />
     </js-module>
 
-    <engines>
-        <engine name="cordova" version=">=9.0.0"/>
-        <engine name="cordova-android" version=">=8.0.0"/>
-        <engine name="cordova-ios" version=">=5.0.0"/>
-    </engines>
-
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="AppReview">
